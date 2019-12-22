@@ -1,0 +1,73 @@
+<view style="display:flex;flex-direction:column;"catchtap="ontouch1"id="1">
+
+ 
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">发布者</text>
+  </view>
+  <view style="margin-top:10px;margin-bottom:10px;">
+   <image src="../../images/imag1.jpg"/>
+   </view>
+   <view style="margin-top:10px;margin-bottom:10px;">
+   <text style="font-size:20px;color：#353535">话题新闻</text>
+   
+  </view>
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:15px;color:#888888">10条回复</text>
+   <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+  
+
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">发布者</text>
+  </view>
+  <view style="margin-top:10px;margin-bottom:10px;">
+   <image src="../../images/imag1.jpg"/>
+   </view>
+   <view style="margin-top:10px;margin-bottom:10px;">
+   <text style="font-size:20px;color：#353535">话题新闻</text>
+   
+  </view>
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:15px;color:#888888">10条回复</text>
+   <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+  
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">发布者</text>
+  </view>
+  <view style="margin-top:10px;margin-bottom:10px;">
+   <image src="../../images/imag1.jpg"/>
+   </view>
+   <view style="margin-top:10px;margin-bottom:10px;">
+   <text style="font-size:20px;color：#353535">话题新闻</text>
+   
+  </view>
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+  
+
+  <view style="display:flex;justify-content:space-between">
+   <text style="font-size:15px;color:#888888">10条回复</text>
+   <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+</view>
+</view>
+

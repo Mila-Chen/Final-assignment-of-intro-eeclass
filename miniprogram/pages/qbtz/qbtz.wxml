@@ -1,0 +1,94 @@
+<view style="display:flex;flex-direction:column;">
+
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;"catchtap="ontouch2"id="2">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">用户</text>
+  </view>
+  
+  <view style="margin-top:10px;margin-bottom:10px;">
+  <text style="font-size:20px;color：#353535"catchtap="ontouch2"id="2">标题</text>
+  </view>
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:15px;color:#888888">10条回复</text>
+  <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+
+ 
+ </view>
+ 
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;"catchtap="ontouch2"id="2">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">用户</text>
+  </view>
+  
+  <view style="margin-top:10px;margin-bottom:10px;">
+  <text style="font-size:20px;color：#353535">标题</text>
+  </view>
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:15px;color:#888888">10条回复</text>
+  <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+
+ 
+ </view>
+ 
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;"catchtap="ontouch2"id="2">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">用户</text>
+  </view>
+  
+  <view style="margin-top:10px;margin-bottom:10px;">
+  <text style="font-size:20px;color：#353535">标题</text>
+  </view>
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:15px;color:#888888">10条回复</text>
+  <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+
+ 
+ </view>
+ 
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;"catchtap="ontouch2"id="2">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">用户</text>
+  </view>
+  
+  <view style="margin-top:10px;margin-bottom:10px;">
+  <text style="font-size:20px;color：#353535">标题</text>
+  </view>
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:16px;color:#888888">内容内容内容...</text>
+  </view>
+
+
+  <view style="display:flex;justify-content:space-between">
+  <text style="font-size:15px;color:#888888">10条回复</text>
+  <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+  </view>
+
+ 
+ </view>
+</view>

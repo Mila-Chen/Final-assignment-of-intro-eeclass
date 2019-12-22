@@ -1,0 +1,70 @@
+ 
+    <view class="search">
+      <view class="search_arlet">
+        <icon class="searchcion" size='17' type='search'></icon>
+        <input type='text' disabled placeholder="点击搜索" value="{{store}}" bindtap='searchInput'/>
+      </view>
+    </view>
+
+  
+   <view class="selection">
+    <swiper indicator-dots="true"
+      previous-margin="50" next-margin='50'
+      autoplay="true" interval="3000" duration="1000">
+        <block wx:for="{{imgUrls}}">
+         <swiper-item>
+           <image src="{{item}}" />
+         </swiper-item>
+       </block>
+     </swiper>
+   </view>
+  
+
+
+   <view class="selection">
+      <view class="header">
+         <text>热门话题</text>
+         <text class="text-all"catchtap="ontouch1"id="1">全部</text>
+      </view> 
+
+
+      <view class="content"catchtap="ontouch2"id="2">
+        <view class="content-item"wx:for="{{contentItems}}">
+           <image src="../../images/imag1.jpg"/>
+           <view class="content-item-text">
+             <text>标题</text>
+           </view>
+        </view>
+       </view>
+
+    </view>
+
+
+    <view class="selection">
+     <view class="header">
+       <text>热门帖子</text>
+       <text class="text-all"catchtap="ontouch3"id="3">全部</text>
+     </view> 
+    </view>
+
+      <view class="list-item" wx:for="{{listItems}}">
+        <view class="list-item-images">
+          <image src="../../images/imag2.jpg"class="list-item-images-imag"/>
+          <image src="../../images/avater.jpg"class="avatar"/>
+        </view>
+        <view class="list-item-text" catchtap="ontouch4" id="4">
+          <view class="list-item-text-title" >
+            <text>标题标题</text>
+          </view>
+
+          <view class="list-item-text-content">
+           <text>内容内容:{{user}}</text>
+          </view>
+        
+
+        </view>
+      </view>
+
+      
+   
+

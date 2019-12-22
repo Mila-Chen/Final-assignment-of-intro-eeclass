@@ -1,0 +1,59 @@
+<view >发布帖子</view>
+<form bindsubmit='res'>
+
+  <view class="section" >
+ 
+    <input maxlength="3000" name="username" placeholder="标题，可以不填..." />
+    
+    
+    <view class="post-mainbody-wrap" >
+        <textarea class="c-fullwidth post-mainbody"  name="textarea1" placeholder="这一刻的想法..." type="textarea"/>
+    </view>
+  </view>
+<view class="post-icon-container" >
+<view class="post-icon-emoj-wrap" >
+<view class="post-icon-emoj"> </view>
+<text class="post-icon-desc" >表情</text>
+</view>
+<view class="post-icon-emoj-wrap" >
+<view class="post-icon-img"></view>
+<text class="post-icon-desc" bindtap="doUpload">图片</text>
+<view class="uploader-container" wx:if="{{imgUrl}}">
+<image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+</view>
+</view>
+
+
+
+
+<view class="post-icon-emoj-wrap" >
+<view class="post-icon-voice"></view>
+<text class="post-icon-desc" >语音</text>
+</view>
+<view class="post-icon-emoj-wrap" >
+<view class="post-icon-vedio" ></view>
+<text class="post-icon-desc" bindtap="doUpload">视频</text>
+<view class="uploader-container" wx:if="{{imgUrl}}">
+<image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
+</view>
+</view>
+<view class="post-icon-emoj-wrap" >
+<view class="post-icon-reward"></view>
+<text class="post-icon-desc" >悬赏</text>
+</view>
+</view>
+<view class="post-type-container" >
+<text class="post-type-wrap" >想法交流</text>
+<text class="post-type-wrap" >改进建议</text>
+<text class="post-type-wrap" >操作指南</text>
+<text class="post-type-wrap" >常见问题</text>
+<text class="post-type-wrap" >微赞故事</text>
+<text class="post-type-wrap" >更新进度</text>
+
+</view>
+<view>
+<button class="post-submit"  form-type='submit' hover-class="button-hover" size="default" type="default" style="color:#fff;background-color:rgba(23,181,238,1)">
+            发表
+        </button>
+</view>
+</form>

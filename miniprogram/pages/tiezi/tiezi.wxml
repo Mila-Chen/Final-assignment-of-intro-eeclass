@@ -1,0 +1,47 @@
+<view style="display:flex;flex-direction:column;">
+
+ <view style="margin-bottom:10px;padding:5px;border-bottom:5px solid #EFEFF3;">
+  <view>
+   <image sce="#"style="height:24px;width:24px"/>
+   <text style="font-size:18px;color:#888888">用户</text>
+  </view>
+
+   <view style="background-color:#c2c2c2;padding:6px;margin-top:10px;">
+      <view style="margin-top:2px;margin-bottom:10px;">
+      <text style="font-size:20px;color：#353535">标题</text>
+      </view>
+      <view style="display:flex;margin-bottom:5px;justify-content:space-between">
+      <text style="font-size:16px;color:#888888">内容内容内容...</text>
+      </view>
+       <view style="display:flex;margin-top:3px;justify-content:space-between">
+    <text style="font-size:15px;color:#888888">10条回复</text>
+    <text style="font-size:13px;color:#888888">浏览人数10</text>
+
+    </view>
+    </view>
+  
+
+
+
+
+
+   
+   
+ </view>
+ <view style="margin-top=20px;">
+      <view><text>用户名</text></view>
+      <view style="color:#888888"><text>内容</text></view>
+ </view>
+<view class="pinglun">
+   <view >发布评论</view>
+   <form bindsubmit='res'>
+   <view class="section">
+    <input maxlength="30" name="username" placeholder="" />
+   </view>
+   <view><button form-type='submit'>提交</button></view>
+   </form>
+</view>
+
+
+
+</view>

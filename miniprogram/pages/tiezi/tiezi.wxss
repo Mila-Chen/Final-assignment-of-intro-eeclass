@@ -1,0 +1,7 @@
+.section{
+  border: 1px solid black;
+}
+.pinglun{
+  position: fixed;
+  bottom: 20rpx;
+}

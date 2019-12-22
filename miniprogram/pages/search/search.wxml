@@ -1,0 +1,33 @@
+<!--miniprogram/pages/search/search.wxml-->
+<view class="search">
+      <view class="search_arlet">
+        <icon class="searchcion" size='17' type='search'></icon>
+        <input class="text" focus="{{name_focus}}" placeholder="输入内容搜索" data-store="{{inputValue}}" value="{{inputValue}}" bindinput='searchInput' bindconfirm="setSearchStorage" />
+      </view>
+    </view>
+    <view class="textSearch"style="margin-left:20px;margin-top:5px;margin-bottom:5px">
+     <text>（空内容搜索为搜索全部）</text>
+    </view>
+  <view class="Search_record_box">
+   <view class='historyContent'>
+    <view class='title'>
+      <text>历史记录</text>
+      <text class='deleteIcon' bindtap='historyDelFn' >删除记录</text>
+    </view>
+    <view class='htrItemContent'>
+      <block wx:for="{{searchRecord}}" wx:key='{{item}}'>
+        <view class='htrItem'>{{item.value}}</view>
+      </block> 
+      <view class='noHistoryItem' style="margin-top:20px"  wx:if="{{searchRecord.length==0}}">你还没有搜索记录</view>
+    </view>
+  </view>
+
+    <view class="History-box">
+    <view class="History-list" wx:for="{{getSearch}}" wx:for-index="idx" wx:for-item="itemName" wx:key="idx" >
+      <text wx:if="{{itemName != ''}}" data-text="{{itemName}}" bindtap='this_value'>{{itemName}} </text>
+    </view>
+    </view>
+   </view>
+    <modal class="modal" hidden="{{modalHidden}}" bindconfirm="modalChangeConfirm" bindcancel="modalChangeCancel">
+      <view class='qingk'>清空浏览记录</view>
+    </modal>

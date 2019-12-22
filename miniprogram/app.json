@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+ 
+    "pages/geren/geren",
+    "pages/qbtz/qbtz",
+    "pages/qbht/qbht",
+    "pages/tiezi/tiezi",
+    "pages/huati/huati",
+    
+    "pages/search/search",
+    "pages/publish/publish"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "日行一善",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ddd",
+    "color": "#9DACB7",
+    "selectedcolor": "#34B457",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发帖"
+      },
+      {
+        "pagePath": "pages/geren/geren",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap9.json"
+}

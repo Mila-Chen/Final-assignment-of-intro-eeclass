@@ -1,0 +1,16 @@
+/* miniprogram/pages/search/search.wxss */
+.title{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.deleteIcon{
+  color:rgb(163, 209, 93);
+  font-size: 14px;
+}
+.noHistoryItem{
+  color:rgb(155, 156, 152);
+}
+.textSearch{
+  color:rgb(155, 156, 152);
+}
